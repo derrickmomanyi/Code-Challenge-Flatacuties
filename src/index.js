@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchCharacters();
     
 })
-
+ 
 //fetch character data from server
 function fetchCharacters() {
     fetch('http://localhost:3000/characters')
